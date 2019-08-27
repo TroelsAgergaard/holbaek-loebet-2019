@@ -1,0 +1,16 @@
+.fullscreen__result-header{
+    font-size: 55vh;
+    line-height: 0;
+    margin: 20vh 0 30vh 0;
+    opacity: 0.7;
+}
+
+.fullscreen__paragraph{
+    font-size: 6.5vw;
+    letter-spacing: 0.005em;
+    margin: 0;
+    color: #fff;
+}
+.fullscreen__paragraph_bold{
+    font-weight: 700;
+}

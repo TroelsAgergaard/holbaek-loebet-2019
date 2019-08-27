@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+@import url('./Base/base.css');
+@import url('./Modules/button.css');
+@import url('./Modules/result.css');
+@import url('./Modules/device-list.css');
