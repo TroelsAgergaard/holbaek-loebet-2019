@@ -15,5 +15,5 @@ function handlerFunction(){
     }, 350);
 }
 
-document.querySelector('.button').addEventListener('click', handlerFunction, false);
+document.querySelector('.button').addEventListener('touchstart', handlerFunction, false);
 
