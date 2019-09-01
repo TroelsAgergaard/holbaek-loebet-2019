@@ -5,7 +5,7 @@ db.collection("rounds")
     .then(function(querySnapshot) {
         querySnapshot.forEach(function(doc) {
             deviceList.innerHTML += `
-                <li class="device-list__device-item"><div class="button button_device-list"></div><a href="index.html?docid=${doc.id}">Device ${i} (Docid: ${doc.id}, K: ${doc.data().round.toFixed(1)})</a></li>
+                <li class="device-list__device-item"><div class="button button_device-list"></div><a href="button.html?docid=${doc.id}">Device ${i} (Docid: ${doc.id})</a></li>
             `
             i++;
         });
