@@ -12,7 +12,7 @@ function handlerFunction(){
     setTimeout(function(){
         body.classList.remove('fullscreen_active');
         button.removeAttribute('disabled');
-    }, 3350);
+    }, 350);
 }
 
 document.querySelector('.button').addEventListener('click', handlerFunction, false);
