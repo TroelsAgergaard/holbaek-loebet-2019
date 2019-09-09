@@ -12,8 +12,8 @@ function handlerFunction(){
     setTimeout(function(){
         body.classList.remove('fullscreen_active');
         button.removeAttribute('disabled');
-    }, 350);
+    }, 3350);
 }
 
-document.querySelector('.button').addEventListener('touchstart', handlerFunction, false);
+document.querySelector('.button').addEventListener('click', handlerFunction, false);
 
