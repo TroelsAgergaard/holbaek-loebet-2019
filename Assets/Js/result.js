@@ -12,7 +12,5 @@ db.collection("rounds")
             document.querySelector('.fullscreen__result-header').innerHTML = 0;
         }else if(total < 1){
             document.querySelector('.fullscreen__result-header').innerHTML = total.toFixed(2);
-        }else{
-            document.querySelector('.fullscreen__result-header').innerHTML = total.toFixed(1);
         }
 });
