@@ -7,7 +7,7 @@ db.collection("rounds")
             total += Math.round(doc.data().round * 10) / 10;
             // total += doc.data();
         });
-        if(total < 1){
+        if(total < 0.25){
             document.querySelector('.fullscreen__result-header').innerHTML = 0;
         }else{
             document.querySelector('.fullscreen__result-header').innerHTML = total.toFixed(1);
