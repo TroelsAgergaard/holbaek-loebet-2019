@@ -7,7 +7,7 @@ function handlerFunction(){
     button.setAttribute('disabled', 'disabled');
     body.classList.add('fullscreen_active');
     db.collection("rounds").doc(docid).update({
-        round: firebase.firestore.FieldValue.increment(1.3)
+        round: firebase.firestore.FieldValue.increment(0.25)
     });
     setTimeout(function(){
         body.classList.remove('fullscreen_active');
