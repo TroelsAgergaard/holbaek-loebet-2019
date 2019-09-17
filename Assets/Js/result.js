@@ -4,7 +4,8 @@ db.collection("rounds")
         let total  = null;
         querySnapshot.forEach(function(doc) {
             rounds.push(doc.data().round);
-            total += Math.round(doc.data().round * 10) / 10;
+            //total += Math.round(doc.data().round * 10) / 10;
+            total += Math.round(doc.data().round * 2) / 2
             // total += doc.data();
         });
         if(total < 0.25){
