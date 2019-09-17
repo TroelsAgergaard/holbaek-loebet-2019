@@ -10,7 +10,7 @@ db.collection("rounds")
         });
         if(total < 0.25){
             document.querySelector('.fullscreen__result-header').innerHTML = 0;
-        }else if{
+        }else{
             document.querySelector('.fullscreen__result-header').innerHTML = total.toFixed(2);
         }
 });
